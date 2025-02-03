@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.hero-section{
+    height: 60vh;
+    width: full;
+    background-color: blue;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navBar{display: flex;
+    color: white;
+    align-items: center;
+    height: 9vh;
+    width: full;
+    justify-content: center;
+    align-items: center;
+    gap: 25vw;
+}
+.navText{display: flex;
+    color: white;
+    gap: 40px;
+
+   
+}
+.navText{
+    font-size: 15px;
+}
+.navBar{
+    font-size:12px ;
+}
+.herotext{
+    height: full;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+gap: 30px;
+margin-top:50px ;}
+.abd
+{
+    height: 6vh;
+}
+.herotext{
+    color: white;
+    font-size: x-large;
+}
+.vrj{
+height: 40px;
+width: 580px;
+border-radius: 5px;
+border: none;
+padding:0px 20px ;
+}
+.cardContainer{
+    height: 40vh;
+    width: 100vw;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.cardImage{background-color: blue;
+     border-radius: 10px 10px 0px 0px;
+ height: 20vh;
+    width: 25vw;
+    object-fit: cover;
+}
+.card{background-color: rgb(244, 239, 239);
+    height: 30vh;
+    width: 25vw;
+    border-radius:10px 10px 10px 10px ;
+    border: 0.5px solid black;
+}
+.imageContainer{
+    border-radius: 10px 10px 0px 0px;
+    font-size: x-large;
+}
+.text{
+    padding-left: 10px;
+}
